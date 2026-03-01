@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment Confirmation</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .container {
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  .checkmark {
+    background-color: #2ecc71;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+  }
+  h2 {
+    color: #1a3b6f;
+    margin-bottom: 5px;
+  }
+  .confirmation-number {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  .details {
+    background: #f0f2f5;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  .details b {
+    display: inline-block;
+    width: 120px;
+    color: #1a3b6f;
+  }
+  .account-balance {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #1a3b6f;
+  }
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  .btn:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Confirmation</h2>
+  <div class="confirmation-number">Contract Account: <b>900069348174</b></div>
+
+  <div class="checkmark">&#10003;</div>
+  <h2>Payment Successful!</h2>
+  <div class="confirmation-number">Confirmation Number: 765721342</div>
+
+  <div class="details">
+    <div><b>Payment Amount:</b> $521.22</div>
+    <div><b>Payment Date:</b> 04/07/25</div>
+    <div><b>Payment Method:</b> Bank Account ending in 3131</div>
+    <div><b>Account:</b> 900069348174</div>
+    <div><b>Service Address:</b> 4700 TAFT BLVD APT 263, WICHITA FALLS TX 76308</div>
+  </div>
+
+  <div class="account-balance">Account Balance: $0.00</div>
+
+  <a href="#" class="btn">Go to Account Summary</a>
+</div>
+
+</body>
+</html>
